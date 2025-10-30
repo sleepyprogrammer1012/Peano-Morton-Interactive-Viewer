@@ -35,11 +35,63 @@ Requirements
 
 Install dependencies:
 
-`pip install numpy matplotlib`
+```
+pip install numpy matplotlib
+```
 
 Run: 
 
-`python peano_morton_fill_centered.py`
+```
+python peano_morton_fill_centered.py
+```
+
+---
+Absolutely 👍 — here’s a clean, copy-paste-ready **CLI usage section** you can drop straight into your `README.md` (right after the “Run” section if you’d like):
+
+---
+
+## 🧭 Command-Line Usage
+
+Once installed (for example via `pip install -e .`), you can run the viewer directly from the terminal:
+
+```bash
+peano-viewer
+```
+
+or, equivalently:
+
+```bash
+python -m peano_morton_viewer
+```
+
+### Options
+
+You can adjust curve parameters using flags:
+
+```bash
+peano-viewer --order 4 --base 3 --interval 0.5
+```
+
+**Arguments:**
+
+| Flag         | Description                                                       | Default |
+| ------------ | ----------------------------------------------------------------- | ------- |
+| `--order`    | Recursion order (curve detail level)                              | `3`     |
+| `--base`     | Numeric base for Morton interleave (e.g. 2 = binary, 3 = ternary) | `3`     |
+| `--interval` | Animation frame interval (seconds)                                | `0.2`   |
+
+**Examples**
+
+```bash
+# Display a ternary (Peano-style) curve of order 5
+peano-viewer --order 5
+
+# Explore a binary (Z-order) variant
+peano-viewer --base 2 --order 6
+
+# Watch it fill the grid at half-speed
+peano-viewer --interval 0.5
+```
 
 ---
 
