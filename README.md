@@ -14,7 +14,13 @@
 #  Author: Joshua Holmes
 #  Repository: https://github.com/sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve
 -->
+
 # Peano–Morton Interactive Viewer (Holmes Curve)
+
+### 📸 .gif / Demo
+
+![demo](https://github.com/user-attachments/assets/b5077018-ada9-49bc-8e1b-e2ac2465e6b4)
+
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve)](https://star-history.com/#sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve)
 
@@ -124,13 +130,6 @@ peano-viewer --interval 50
 - –1 / ×3 / ÷3: Step through Morton indices interactively
    
 - Red dot: Shows the currently selected index  
-
----
-
-### 📸 .gif / Demo
-
-![demo](https://github.com/user-attachments/assets/b5077018-ada9-49bc-8e1b-e2ac2465e6b4)
-
 
 ---
 
