@@ -7,7 +7,8 @@ name = "peano-morton-viewer"
 version = "0.1.0"
 description = "Interactive viewer for ternary (or generalized base-N) Morton / Peano interleaving"
 readme = "README.md"
-license = { file = "LICENSE.md" }
+license = "LicenseRef-Proprietary"   # custom license string
+requires-python = ">=3.8"
 authors = [
   { name = "Your Name", email = "your.email@example.com" }
 ]
@@ -25,5 +26,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/peano-morton-viewer"
-Issues = "https://github.com/yourusername/peano-morton-viewer/issues"
+Homepage = "https://github.com/sleepyprogrammer1012/peano-morton-viewer"
+Issues = "https://github.com/sleepyprogrammer1012/peano-morton-viewer/issues"
