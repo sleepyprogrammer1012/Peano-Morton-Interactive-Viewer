@@ -144,4 +144,4 @@ For commercial licensing, advanced features, or consulting (e.g. 3D extensions, 
 
 ## 📜 License
 Free for personal and educational use.
-Commercial use requires a license — reach out if you’re interested.
+Commercial use requires a license — reach out if you’re interested. [License and Email HERE](https://github.com/sleepyprogrammer1012/Peano-Morton-Interactive-Viewer/blob/main/LICENSE.md)
