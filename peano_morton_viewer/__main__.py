@@ -12,7 +12,7 @@
 #    and the Holmes Curve, a ternary skewed space-filling traversal.
 #
 #  Author: Joshua Holmes
-#  Repository: https://github.com/<your-github-handle>/peano-morton-viewer
+#  Repository: https://github.com/sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve
 # ============================================================
 
 import argparse
@@ -42,4 +42,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
