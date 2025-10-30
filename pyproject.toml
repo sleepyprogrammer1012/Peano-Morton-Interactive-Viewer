@@ -7,24 +7,15 @@ name = "peano-morton-viewer"
 version = "0.1.0"
 description = "Interactive viewer for ternary (or generalized base-N) Morton / Peano interleaving"
 readme = "README.md"
-license = "LicenseRef-Proprietary"   # custom license string
+license = "LicenseRef-Proprietary"
 requires-python = ">=3.8"
 authors = [
-  { name = "Your Name", email = "your.email@example.com" }
+  { name = "Joshua Holmes", email = "bendtomywillgamers@gmail.com" }
 ]
-keywords = ["morton", "peano", "space-filling-curve", "visualization", "matplotlib"]
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "License :: Other/Proprietary License",
-  "Operating System :: OS Independent",
-  "Topic :: Scientific/Engineering :: Visualization",
-]
-
 dependencies = [
   "numpy",
   "matplotlib"
 ]
 
-[project.urls]
-Homepage = "https://github.com/sleepyprogrammer1012/peano-morton-viewer"
-Issues = "https://github.com/sleepyprogrammer1012/peano-morton-viewer/issues"
+[project.scripts]
+peano-viewer = "peano_morton_viewer.__main__:main"
