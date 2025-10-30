@@ -20,7 +20,7 @@
 
 # 🚀 Project Announcement
 
-What started as an idea this morning is now live: an interactive Python package for exploring Peano–Morton (Z‑order) curves.
+What started as an idea this morning (10-29-2025) is now live: an interactive Python package for exploring Peano–Morton (Z‑order) curves.
 In just a few hours, it went from concept → working code → polished package with CLI support and documentation.
 
 This project brings abstract math into an interactive, visual form — useful for anyone in data visualization, GIS, graphics, or scientific computing.
