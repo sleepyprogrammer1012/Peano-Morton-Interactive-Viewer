@@ -16,6 +16,9 @@
 -->
 # Peano–Morton Interactive Viewer (Holmes Curve)
 
+![Hits](https://hits.sh/github.com/sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve.svg?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve?style=social)
+[![Star History Chart](https://api.star-history.com/svg?repos=sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve)](https://star-history.com/#sleepyprogrammer1012/Peano-Morton-Interactive-Viewer-Holmes-Curve)
 ---
 
 # 🚀 Project Announcement
