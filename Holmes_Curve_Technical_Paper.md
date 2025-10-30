@@ -36,8 +36,11 @@ Here’s the **same section**, rewritten so that it **renders correctly on GitHu
 ## ⚙️ Definition
 
 Let
-$n \in [0, N^{2m} - 1]$
+```math
+n∈[0,N^2m−1]
+```
 be a linear index for order *m* and base *N*.
+
 
 Write *n* in base *N* and extract digits pairwise (least-significant first):
 
