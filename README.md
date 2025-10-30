@@ -18,10 +18,15 @@
 
 ---
 
-An interactive Python tool for exploring ternary (or generalized base‑N) Morton / Peano interleaving.
-It lets you visualize space‑filling curves, step through indices, and experiment with arithmetic operations on Morton codes.
+# 🚀 Project Announcement
 
-If you like this, please leave a Star! ⭐
+What started as an idea this morning is now live: an interactive Python package for exploring Peano–Morton (Z‑order) curves.
+In just a few hours, it went from concept → working code → polished package with CLI support and documentation.
+
+This project brings abstract math into an interactive, visual form — useful for anyone in data visualization, GIS, graphics, or scientific computing.
+
+Check out the repo, try the viewer, and if you find it interesting, ⭐ the project to help others discover it!
+
 ---
 
 ## ✨ Features
