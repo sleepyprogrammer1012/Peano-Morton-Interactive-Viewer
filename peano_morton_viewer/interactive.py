@@ -1,3 +1,20 @@
+# ============================================================
+#  Peano–Morton Interactive Viewer (Holmes Curve Visualization)
+#  Copyright (c) 2025 Joshua Holmes
+#  All rights reserved.
+#
+#  License:
+#    - Free for personal, educational, and research use.
+#    - Commercial use requires an explicit license agreement.
+#
+#  Description:
+#    Interactive Python tool for exploring Peano–Morton interleaving
+#    and the Holmes Curve, a ternary skewed space-filling traversal.
+#
+#  Author: Joshua Holmes
+#  Repository: https://github.com/<your-github-handle>/peano-morton-viewer
+# ============================================================
+
 # peano_morton_viewer/interactive.py
 
 import numpy as np
@@ -218,4 +235,5 @@ if __name__ == "__main__":
 
     # --- launch the interactive viewer ---
     interactive_peano(base=3, max_order=6, interval=2)
+
 
