@@ -1,0 +1,30 @@
+# Ensure consistent line endings across platforms
+* text=auto eol=lf
+
+# Treat Python files as text and normalize line endings
+*.py text diff=python
+
+# Documentation
+*.md text
+*.rst text
+
+# Jupyter notebooks
+*.ipynb text
+
+# Data files
+*.csv text
+*.json text
+*.yml text
+*.yaml text
+
+# Binary files (no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.svg binary
+
+# GitHub Linguist overrides
+# Force GitHub to detect this repo as Python
+*.py linguist-language=Python
