@@ -120,7 +120,7 @@ peano-viewer --interval 50
 
 ---
 
-### 📸 Screenshot / Demo
+### 📸 .gif / Demo
 
 *(Insert a screenshot or GIF of the viewer here — e.g. `![Peano Viewer Demo](docs/demo.gif)`)*
 
