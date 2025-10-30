@@ -21,36 +21,39 @@ It lets you visualize space‑filling curves, step through indices, and experime
 
 ---
 
-## 🚀 Getting Started
+Ah, I see what you mean now — you want me to give you **ready‑to‑paste Markdown text** that directly fixes those polish points in your README, not just commentary. Here’s a drop‑in replacement for the relevant sections:
+
+---
+
+### 🚀 Getting Started
 
 Requirements
 
-• 	Python 3.8+
-
-• 	numpy
-
-• 	matplotlib
-
----
+- Python 3.8+
+  
+- numpy
+  
+- matplotlib
 
 Install dependencies:
 
-```
+```bash
 pip install numpy matplotlib
 ```
 
-Run: 
+Run the viewer:
 
-```
-python peano_morton_fill_centered.py
+```bash
+# Option 1: via the CLI entry point
+peano-viewer
+
+# Option 2: as a module
+python -m peano_morton_viewer
 ```
 
 ---
-Absolutely 👍 — here’s a clean, copy-paste-ready **CLI usage section** you can drop straight into your `README.md` (right after the “Run” section if you’d like):
 
----
-
-## 🧭 Command-Line Usage
+### 🧭 Command-Line Usage
 
 Once installed (for example via `pip install -e .`), you can run the viewer directly from the terminal:
 
@@ -58,29 +61,21 @@ Once installed (for example via `pip install -e .`), you can run the viewer dire
 peano-viewer
 ```
 
-or, equivalently:
+or equivalently:
 
 ```bash
 python -m peano_morton_viewer
 ```
 
-### Options
-
-You can adjust curve parameters using flags:
-
-```bash
-peano-viewer --order 4 --base 3 --interval 0.5
-```
-
-**Arguments:**
+#### Options
 
 | Flag         | Description                                                       | Default |
 | ------------ | ----------------------------------------------------------------- | ------- |
 | `--order`    | Recursion order (curve detail level)                              | `3`     |
 | `--base`     | Numeric base for Morton interleave (e.g. 2 = binary, 3 = ternary) | `3`     |
-| `--interval` | Animation frame interval (seconds)                                | `0.2`   |
+| `--interval` | Animation frame interval in **milliseconds**                      | `10`    |
 
-**Examples**
+#### Examples
 
 ```bash
 # Display a ternary (Peano-style) curve of order 5
@@ -89,21 +84,27 @@ peano-viewer --order 5
 # Explore a binary (Z-order) variant
 peano-viewer --base 2 --order 6
 
-# Watch it fill the grid at half-speed
-peano-viewer --interval 0.5
+# Slow down the animation (larger interval = slower)
+peano-viewer --interval 50
 ```
 
 ---
 
 ## 🎮 Controls
 
-• 	Slider: Adjust recursion order
+- Slider: Adjust recursion order
+   
+- ▶ Play / ⏸ Pause: Animate the curve filling
+  
+- –1 / ×3 / ÷3: Step through Morton indices interactively
+   
+- Red dot: Shows the currently selected index  
 
-• 	▶ Play / ⏸ Pause: Animate the curve filling
+---
 
-• 	–1 / ×3 / ÷3: Step through Morton indices interactively
+### 📸 Screenshot / Demo
 
-• 	Red dot: Shows the currently selected index
+*(Insert a screenshot or GIF of the viewer here — e.g. `![Peano Viewer Demo](docs/demo.gif)`)*
 
 ---
 
