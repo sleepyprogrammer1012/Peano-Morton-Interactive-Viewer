@@ -218,3 +218,4 @@ if __name__ == "__main__":
 
     # --- launch the interactive viewer ---
     interactive_peano(base=3, max_order=6, interval=2)
+
