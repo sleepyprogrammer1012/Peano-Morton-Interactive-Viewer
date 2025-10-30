@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peano-morton-viewer"
+version = "0.1.0"
+description = "Interactive viewer for ternary (or generalized base-N) Morton / Peano interleaving"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [
+  { name = "Your Name", email = "your.email@example.com" }
+]
+keywords = ["morton", "peano", "space-filling-curve", "visualization", "matplotlib"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+
+dependencies = [
+  "numpy",
+  "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/peano-morton-viewer"
+Issues = "https://github.com/yourusername/peano-morton-viewer/issues"
