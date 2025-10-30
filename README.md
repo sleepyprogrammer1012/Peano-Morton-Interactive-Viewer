@@ -1,4 +1,4 @@
-# Peano–Morton Interactive Viewer
+# Peano–Morton Interactive Viewer (Holmes Curve)
 
 ---
 
